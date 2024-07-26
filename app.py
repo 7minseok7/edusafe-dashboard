@@ -22,7 +22,7 @@ with open('data/edusafe.pkl', 'rb') as f:
     data = pickle.load(f)
 
 # 페이지 출력 부분
-first_col = st.columns((0.35, 0.3, 0.15, 0.2), gap='medium')
+first_col = st.columns((0.4, 0.3, 0.15, 0.15), gap='medium')
 
 with first_col[0]:
     st.markdown('<h2 style="line-height: 150%;">🏫&nbsp;&nbsp;&nbsp;&nbsp;한눈에 알아보는 학교 안전사고</h2>', unsafe_allow_html=True)
