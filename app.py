@@ -25,7 +25,7 @@ with open('data/edusafe.pkl', 'rb') as f:
 first_col = st.columns((0.4, 0.3, 0.15, 0.15), gap='medium')
 
 with first_col[0]:
-    st.markdown('<h2 style="line-height: 150%;">🏫&nbsp;&nbsp;&nbsp;&nbsp;한눈에 알아보는 학교 안전사고</h2>', unsafe_allow_html=True)
+    st.markdown('<h2 style="line-height: 150%;">🏫&nbsp;&nbsp;&nbsp;한눈에 알아보는 학교 안전사고</h2>', unsafe_allow_html=True)
 
 with first_col[1]:
     st.write('연도를 선택하세요. (미 체크 시 전체 데이터 반영)')
